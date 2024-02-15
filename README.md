@@ -3,7 +3,7 @@
 
 
 ## Deplolyed App
--Frontend:admirable-chimera-28b801.netlify.app/ <br>
+-Frontend:https://admirable-chimera-28b801.netlify.app/ <br>
 -Backend: https://cointab-755u.onrender.com <br>
 -Database:Amazon RDS(MySQL) -database-1.cpc0ckgcmvb7.ap-south-1.rds.amazonaws.com
 
