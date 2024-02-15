@@ -35,17 +35,20 @@ function Home() {
 
 // display all users when click on the all users
   const handleDisplay = () => {
-    console.log(databasedata)
-    users.forEach((item) => {
-        const data =databasedata.find((ele) => ele.id == item.id)
-        if(data){
-            item.add=true
-            console.log(data)
-        }
-    })
-    console.log(users)
-     setAllusers(users)
-     setDisplay(true)
+    setInterval(()=>{
+      console.log(databasedata)
+      users.forEach((item) => {
+          const data =databasedata.find((ele) => ele.id == item.id)
+          if(data){
+              item.add=true
+              console.log(data)
+          }
+      })
+      console.log(users)
+       setAllusers(users)
+       setDisplay(true)
+    },1000)
+    
   }
 
   // checking add or open
@@ -53,7 +56,7 @@ function Home() {
     console.log(x)
     const data =allusers.filter((item) => item.id===x)
     allusers.forEach((item) => {
-        if( item.id===x){
+        if(item.id===x){
             item.add=true
         }
     })

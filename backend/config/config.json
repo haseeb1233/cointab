@@ -1,8 +1,8 @@
 
 {
   "development": {
-    "username": "",
-    "password": "",
+    "username": "admin",
+    "password": "abdulhaseeb",
     "database": "cointab",
     "host": "database-1.cpc0ckgcmvb7.ap-south-1.rds.amazonaws.com",
     "dialect": "mysql"
