@@ -5,7 +5,7 @@
 ## Deplolyed App
 -Frontend:https://transcendent-naiad-d47431.netlify.app/ <br>
 -Backend: https://cointab-755u.onrender.com <br>
--Database:Amazon RDS(MySQL) -database-1.cpc0ckgcmvb7.ap-south-1.rds.amazonaws.com
+-Database:Amazon RDS(MySQL) 
 
 ## Directory Structure
 ```bash
